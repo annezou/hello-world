@@ -1,0 +1,35 @@
+Title         : Github
+Author        : Anne
+Logo          : True
+
+[Github]
+
+# Madoko 
+
+Madoko is a fast markdown processor for writing professional articles
+with a focus on simplicity and plain text readability.
+
+* Read the [reference manual].
+* Explore the upper-right toolbox menu to discover how Markdown works. 
+* `Alt-Q` reformats the current paragraph.
+
+Enjoy!
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
+
+# github
+## Hello-world
+Quick setup — if you’ve done this kind of thing before
+https://github.com/annezou/hello-world.git
+
+…or create a new repository on the command line
+echo "# hello-world" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/annezou/hello-world.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/annezou/hello-world.git
+git push -u origin master
